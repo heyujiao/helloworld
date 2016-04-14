@@ -1,24 +1,26 @@
-gitÊ¹ÓÃĞÄµÃ
-1.µÇÂ¼github.com£¬×¢²áÕË»§
-  ´´½¨²Ö¿â£»
-  ¹«¹²²Ö¿âÃâ·Ñ£¬ÓĞÈİÁ¿ÏŞÖÆ£¬¶¼¿ÉÒÔ·ÃÎÊ£»Ë½ÓĞÕË»§°´²Ö¿â´óĞ¡Ã¿ÔÂÊÕ·Ñ£»
-2.±¾µØ°²×°git
-  ±¾µØ½¨Á¢²Ö¿â£¬½«ÍøÉÏµÄ´úÂë»òÕß²Ö¿âÀïµÄÄÚÈİcloneµ½±¾µØ£»
+gitä½¿ç”¨å¿ƒå¾—
+1.ç™»å½•github.comï¼Œæ³¨å†Œè´¦æˆ·
+  åˆ›å»ºä»“åº“ï¼›
+  å…¬å…±ä»“åº“å…è´¹ï¼Œæœ‰å®¹é‡é™åˆ¶ï¼Œéƒ½å¯ä»¥è®¿é—®ï¼›ç§æœ‰è´¦æˆ·æŒ‰ä»“åº“å¤§å°æ¯æœˆæ”¶è´¹ï¼›
+2.æœ¬åœ°å®‰è£…git
+  æœ¬åœ°å»ºç«‹ä»“åº“ï¼Œå°†ç½‘ä¸Šçš„ä»£ç æˆ–è€…ä»“åº“é‡Œçš„å†…å®¹cloneåˆ°æœ¬åœ°ï¼›
   git init here;
-  git clone (²Ö¿âµØÖ·) or git remote add origin git@****(²Ö¿âµØÖ·)¹ØÁªºó git pull origin master
+  git clone (ä»“åº“åœ°å€) or git remote add origin git@****(ä»“åº“åœ°å€)å…³è”å git pull origin master
   git add ..
-  git commit -m "×¢ÊÍ"
+  git commit -m "æ³¨é‡Š"
   git push origin master 
-3.½øĞĞsshÈÏÖ¤ÉèÖÃ£¬¿ØÖÆÉÏ´«È¨ÏŞ
-  ÅäÖÃ sshkey £º ÉÏ´«´úÂëÊ±Ê¹ÓÃÕâ¸ö sshkey À´È·ÈÏÊÇ·ñÓĞÉÏ´«È¨ÏŞ
-    1. ´´½¨±¾µØ ssh £º ssh-keygen -t rsa -C "Github µÄ×¢²áÓÊÏä"
-    2. ÔÚ Github ÖĞÌí¼ÓÕâ¸ö sshkey £º 
-        ¸´ÖÆ  C:\Documents and Settings\Administrator\.ssh\id_rsa.pub ÎÄ¼şÖĞµÄÄÚÈİ£»
-        µÇÂ¼ Github --> Account Setting  --> SSH-KEY --> Add SSH-KEY --> Õ³Ìùid_rsa.pubÖĞµÄÄÚÈİ£»
-    3. ÑéÖ¤£º ssh -T git@github.com
-        ³öÏÖ Hi xxx! You've successfully authenticated, but GitHub does not provide shell access. ËµÃ÷ÅäÖÃ³É¹¦£¬¿ÉÒÔÁ¬½ÓÉÏ Github
-4.¿ª·¢Ä£Ê½£ºÓÉÖ÷¿ª·¢Õß´´½¨ÕË»§£¬¹ÜÀí²Ö¿â£¬ºÏ²¢´úÂë£¬½â¾ö³åÍ»£¬ÉÏ´«ÖÁ°æ±¾¿â£»
-  ±ğµÄ¿ª·¢Õß¸ºÔğÏÂÔØ¸üĞÂ£¬¿ª·¢Íê³É´ò°ü²¹¶¡£¬·¢¸øÖú¿ª·¢Õß£»
-5.³£ÓÃÃüÁî£ºpull,clone,fetch,
+3.è¿›è¡Œsshè®¤è¯è®¾ç½®ï¼Œæ§åˆ¶ä¸Šä¼ æƒé™
+  é…ç½® sshkey ï¼š ä¸Šä¼ ä»£ç æ—¶ä½¿ç”¨è¿™ä¸ª sshkey æ¥ç¡®è®¤æ˜¯å¦æœ‰ä¸Šä¼ æƒé™
+    1. åˆ›å»ºæœ¬åœ° ssh ï¼š ssh-keygen -t rsa -C "Github çš„æ³¨å†Œé‚®ç®±"
+    2. åœ¨ Github ä¸­æ·»åŠ è¿™ä¸ª sshkey ï¼š 
+        å¤åˆ¶  C:\Documents and Settings\Administrator\.ssh\id_rsa.pub æ–‡ä»¶ä¸­çš„å†…å®¹ï¼›
+        ç™»å½• Github --> Account Setting  --> SSH-KEY --> Add SSH-KEY --> ç²˜è´´id_rsa.pubä¸­çš„å†…å®¹ï¼›
+    3. éªŒè¯ï¼š ssh -T git@github.com
+        å‡ºç° Hi xxx! You've successfully authenticated, but GitHub does not provide shell access. è¯´æ˜é…ç½®æˆåŠŸï¼Œå¯ä»¥è¿æ¥ä¸Š Github
+4.å¼€å‘æ¨¡å¼ï¼šç”±ä¸»å¼€å‘è€…åˆ›å»ºè´¦æˆ·ï¼Œç®¡ç†ä»“åº“ï¼Œåˆå¹¶ä»£ç ï¼Œè§£å†³å†²çªï¼Œä¸Šä¼ è‡³ç‰ˆæœ¬åº“ï¼›
+  åˆ«çš„å¼€å‘è€…è´Ÿè´£ä¸‹è½½æ›´æ–°ï¼Œå¼€å‘å®Œæˆæ‰“åŒ…è¡¥ä¸ï¼Œå‘ç»™åŠ©å¼€å‘è€…ï¼›
+5.å¸¸ç”¨å‘½ä»¤ï¼špull,clone,fetch,
             push,commit,add,
             rebase, reset, merge, checkout, branch, .ignore
+            
+Authorï¼š ä½•ç‰å¨‡
