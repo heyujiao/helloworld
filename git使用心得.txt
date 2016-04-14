@@ -1,0 +1,24 @@
+git使用心得
+1.登录github.com，注册账户
+  创建仓库；
+  公共仓库免费，有容量限制，都可以访问；私有账户按仓库大小每月收费；
+2.本地安装git
+  本地建立仓库，将网上的代码或者仓库里的内容clone到本地；
+  git init here;
+  git clone (仓库地址) or git remote add origin git@****(仓库地址)关联后 git pull origin master
+  git add ..
+  git commit -m "注释"
+  git push origin master 
+3.进行ssh认证设置，控制上传权限
+  配置 sshkey ： 上传代码时使用这个 sshkey 来确认是否有上传权限
+    1. 创建本地 ssh ： ssh-keygen -t rsa -C "Github 的注册邮箱"
+    2. 在 Github 中添加这个 sshkey ： 
+        复制  C:\Documents and Settings\Administrator\.ssh\id_rsa.pub 文件中的内容；
+        登录 Github --> Account Setting  --> SSH-KEY --> Add SSH-KEY --> 粘贴id_rsa.pub中的内容；
+    3. 验证： ssh -T git@github.com
+        出现 Hi xxx! You've successfully authenticated, but GitHub does not provide shell access. 说明配置成功，可以连接上 Github
+4.开发模式：由主开发者创建账户，管理仓库，合并代码，解决冲突，上传至版本库；
+  别的开发者负责下载更新，开发完成打包补丁，发给助开发者；
+5.常用命令：pull,clone,fetch,
+            push,commit,add,
+            rebase, reset, merge, checkout, branch, .ignore
